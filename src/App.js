@@ -15,6 +15,7 @@ function App() {
           Developer
         </a>
       </header>
+      <image src="SteamedBun.png" alt="Steamed Bun"></image>
     </div>
   );
 }
