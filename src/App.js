@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="SteamedBun.png" alt="Steamed Bun"></img>
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <a
           className="App-link"
           href="https://nathan-beals.com/"
@@ -15,7 +16,6 @@ function App() {
           Developer
         </a>
       </header>
-      <image src="SteamedBun.png" alt="Steamed Bun"></image>
     </div>
   );
 }
