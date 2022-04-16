@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +5,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="SteamedBun.png" alt="Steamed Bun"></img>
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <a
           className="App-link"
           href="https://nathan-beals.com/"
