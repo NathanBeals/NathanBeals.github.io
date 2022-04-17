@@ -3,33 +3,34 @@ import styled from 'styled-components';
 
 import { Motion, spring, presets } from "react-motion";
 
-const ItemInfoCSS = styled.div`
-border-style: none;
-display: flex;
-horizontal: please god just put it in the middle;
-justify-content: center;
-margin: 5px;
-`;
-
-const DeeperCSS = styled.div`
-border-style: none;
-margin: 10px;
-background-color:#00CED1;
-`;
-
-const ListCSS = styled.ul`
-height:5px;
-left-margin:0px;
-text-align: left;
-padding-left:10px;
-`;
-
-const LinkCSS = styled.a`
+const Bar = styled.a`
 postion:relative;
-text-align: right;
+background-color: black;
+text-align: left;
 color: blue;
 display:block; //Needed for right alignment to apply to a (it's weird)
-margin-right: 10px;
+`;
+
+const HomeButton = styled.button`
+background-color: black;
+border: none;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size 20px;
+`;
+
+const OtherButton = styled.button`
+background-color: black;
+border: none;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size 20px;
 `;
 
 // Props
@@ -60,9 +61,11 @@ class TopBar extends React.Component {
     const modifiers = { };
     return (
         <div>
-            <button onClick={this.handleClick}>
-                {this.state.isToggleOn ? "Nothing" : "Also Nothing"}
-            </button>
+            <Bar>
+                <HomeButton onClick={this.handleClick}>
+                    {this.state.isToggleOn ? "We Knead Games" : "Nothing Here Yet"}
+                </HomeButton>
+            </Bar>
         </div>
     );
   }
