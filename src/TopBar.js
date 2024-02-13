@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import styled from 'styled-components';
 
-import { Motion, spring, presets } from "react-motion";
-
 const Bar = styled.a`
 postion:relative;
 background-color: black;

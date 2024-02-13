@@ -10,7 +10,7 @@ function App() {
         {/*<img src={require('./images/bun.jpg')} alt="secondimage"></img>*/}
         <a
           className="App-link"
-          href="https://nathan-beals.com/"
+          href="https://www.nathan-beals.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
